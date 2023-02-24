@@ -20,4 +20,3 @@ Once its downloaded, go to the saved folder on yor computer, and open the file `
 
 > **Note**:
 > - do not copy the file `talk.html` alone somewhere else, it needs the other files to render properly.
-> - while it is an .html file, it will render in your browser even without internet connection. However, some content of this presentation is rendered online, and will not display without an internet connection.
