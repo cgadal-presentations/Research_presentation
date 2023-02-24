@@ -11,6 +11,7 @@ format:
     callout-icon: false
     slide-number: true
     auto-stretch: false
+    footer: "Some images/figures may render strangely. Refreshing the page usually fixes it."
     template-partials:
       - title-slide.html
 extra_javascript:
