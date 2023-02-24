@@ -1,0 +1,424 @@
+---
+title: "Geophysical complex systems"
+subtitle: "Particles, flows and patterns"
+author: "Cyril Gadal"
+institute: "Institut de Mécanique des Fluides de Toulouse (IMFT), France"
+format:
+  revealjs:
+    theme: [black, custom.scss]
+    width: 1920
+    height: 1080
+    callout-icon: false
+    slide-number: true
+    auto-stretch: false
+    template-partials:
+      - title-slide.html
+extra_javascript:
+    - https://pyscript.net/latest/pyscript.js
+---
+
+## General background
+
+- License of Physics, major Geosciences
+- Master of Geosciences, major Geophysical Fluid Dynamics
+- Master of Physics, major Fluid Dynamics and Soft Matter
+
+:::: {.columns}
+
+::: {.column width=50%}
+<h4 style="text-align:center; margin: 30px"> PhD thesis: Sand dunes (IPGP, 2017 -- 2020) </h4>
+
+![Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China.](src/DunePanorama_small.jpg){height=450px}
+
+:::
+
+::: {.column width=50%}
+<h4 style="text-align:center; margin: 30px"> PostDoc: Turbidity currents (IMFT, 2021 -- now) </h4>
+
+![Powder snow avalanche at the Zinal ski station, in Switzerland. (@Zacharie Grossen)](src/avalanche_crop.jpg){height=450px}
+
+:::
+::::
+
+
+# From a hydrodynamic instability to dune patterns shaping sand seas
+
+::: {style="margin-top: 80px;text-align:center;"}
+
+![Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China.](src/DunePanorama_small.jpg){height=400px}
+
+:::
+
+## General questions
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- `Inference/constraints`, where measurements are not possible or available (winds, grain size)
+:::
+::: {.column width="50%"}
+
+::: {style="text-align: center;"}
+
+- `Risks,` `land management` in arid, coastal areas 
+
+:::
+
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![Dune patterns on Mars. (@NASA)](src/Dune_mars.jpg){height=400px}
+
+:::
+::: {.column width="50%"}
+
+![Dune moving over a road, Egypt. (@Yann Arthus-Bertrand)](src/road-interrupted-by-a-sand-dune.jpg){height=400px}
+
+:::
+::::
+
+::: {.fragment}
+::: {.important}
+
+[&#8594; Need for a quantitative understanding of dune morphodynamics, `in` `real` `conditions`]{.boxed}
+
+:::
+:::
+
+## Focus of my PhD
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+
+- `Multidirectional` `wind` `regimes`
+
+:::
+:::
+::: {.column width="50%"}
+
+::: {style="text-align: center;"}
+
+- `Boundary` `conditions`
+
+:::
+:::
+::::
+
+:::: {.columns}
+
+::: {.column width=25%}
+:::
+
+::: {.column width=50%}
+::: {.fragment}
+:::{.callout-note appearance="minimal" #nomargin}
+
+## Emergence and instabilities 
+
+![Theory, Experiments, Numerical simulations, Field data](src/PhD_focus/Patterns_manip.svg){width=1000px .img-white}
+
+:::
+:::
+:::
+
+::: {.column width=25%}
+:::
+
+::::
+:::: {.columns}
+::: {.column width=59%}
+
+::: {.fragment}
+:::{.callout-tip appearance="minimal" #nomargin}
+## Mature and non-linear patterns
+
+![Numerical simulations, Field data](src/PhD_focus/figure_numerical.svg){width=900px .img-white}
+
+:::
+:::
+:::
+
+::: {.column width=41%}
+::: {.fragment}
+
+:::{.callout-warning .callout-center appearance="minimal" #nomargin}
+## Large scale mecanisms
+
+![Theory, Field data](src/PhD_focus/Figure9.svg){width=1000px .img-white}
+
+:::
+:::
+:::
+
+::::
+
+# Turbidity currents: lock-release and steady influx systems
+
+::: {style="margin-top: 80px;text-align:center;"}
+
+![Powder snow avalanche at the Zinal ski station, in Switzerland. (@Zacharie Grossen)](src/avalanche_crop.jpg){height=400px}
+
+:::
+
+## General questions
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+
+- `Natural` `hazards`, risks
+
+:::
+:::
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+
+- `Geological` `constraints`, inference from deposits
+
+:::
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+<!-- ::: {style="text-align: center;"} -->
+
+![Pyroclastic flow, Sinabung, Indonesia (@Jean-Guillaume Feignon)](src/pyroclastic.png){height=400px}
+
+<!-- ::: -->
+:::
+::: {.column width="50%"}
+<!-- ::: {style="text-align: center;"} -->
+
+![Turbidity current deposit (Wilkin et al. 2023)](src/Deposit_wilkin.svg){height=400px}
+
+<!-- ::: -->
+:::
+::::
+
+:::: {style="max-width: 60%; margin: 0 auto;"}
+<!-- ::: {style="text-align: center;"} -->
+
+
+- Fundamental questions:
+  - `particle/something` (turbulence, wall) `interactions`
+  - `entrainment` in particle-laden flows
+
+<!-- ::: -->
+::::
+
+## Focus of my PostDoc
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+
+- Influence of `particle` `buoyancy`
+
+:::
+:::
+::: {.column width="50%"}
+
+::: {style="text-align: center;"}
+
+- Influence of `bottom` `slope`
+
+:::
+:::
+::::
+
+<hr>
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+::: {.fragment}
+:::{.callout-tip appearance="minimal" #nomargin}
+## Lock-release turbidity current
+
+![Experiments](src/PostDoc_focus/lock_release.svg){height=600px}
+
+:::
+:::
+:::
+
+::: {.column width="60%"}
+::: {.fragment}
+:::{.callout-note appearance="minimal" #nomargin}
+## Steady influx turbidity current
+
+![Experiments](src/PostDoc_focus/steady_injection.svg){height=200px}
+
+:::
+:::
+::: {.fragment}
+
+:::{.callout-warning appearance="minimal" #nomargin}
+
+## Depth-averaged models
+
+
+![Theory](src/PostDoc_focus/SW_figure.svg){height=225px}
+
+:::
+:::
+:::
+
+::::
+
+## Links with this postdoctoral position
+
+::: {.fragment fragment-index=1}
+:::{.callout-note .callout-center #nomargin}
+## Scientific interests
+
+:::: {.columns}
+
+::: {.column width="36%"}
+
+- Fluid and granular physics:
+  - Sediment transport, bedforms [&#8594; debris-flows and deposits]{.highlight}
+  - Suspensions, particle-laden gravity currents [&#8594; debris-flows]{.highlight}
+  - Instabilities, patterns [&#8594; surge waves, deposits]{.highlight}
+
+:::
+::: {.column width="35%"}
+
+- Quantitative geophysics:
+  - Linking observations to physical mecanisms [&#8594; assessing relevant mechanisms for specific observations (e.g. surge waves)]{.highlight}
+
+:::
+::: {.column width="29%"}
+
+- Open science [&#8594; code and data dissemination]{.highlight}
+
+:::
+::::
+
+:::
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment fragment-index=2}
+:::{.callout-tip .callout-center #nomargin}
+## Practical skills
+
+- Analytical skills:
+  - linear stability analysis [&#8594; surge waves]{.highlight}
+  - depth-averaged models [&#8594; depth-averaged models]{.highlight}
+
+- Programming skills:
+  - data processing (Python) [&#8594; processing all kind of data]{.highlight}
+  - numerical simulations (Python, C++) [&#8594; solving equations]{.highlight}
+  - HTML, code documentation, Fortran
+
+- Experimental skills:
+  - design and execution of experiments [&#8594; analogue experiments for debris-flows]{.highlight}
+  - fluid/particles
+
+- Multitechnique approach:
+  - coupling theory, experiments, numerical simulations and field data into new ideas &nbsp; [&#8594; couping Illgraben data to lab and theoretical results]{.highlight}
+
+:::
+:::
+:::
+
+
+
+::: {.column width="50%"}
+
+::: {.fragment fragment-index=3}
+:::{.callout-warning .callout-center #nomargin}
+## General skills
+
+- Team work:
+  - worked in 5 different labs [&#8594; integration in the team]{.highlight}
+  - many team projects (different labs, different communities) [&#8594; work efficiently within an interdisciplinary international project team]{.highlight}
+
+- Writing and presenting:
+  - 11 publications in international journals
+  - 11 oral communications
+  - (LaTEX)
+
+- Student supervision:
+  - 4 students supervised
+
+- Teaching
+
+:::
+:::
+:::
+
+
+::::
+
+<!-- 
+
+## Emergence and dune instability
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+### &#8594; What was known ? 
+
+- `instability` coupling flow, sediment transport and topography evolution
+- `linear stability analysis`
+  - unidirectional constant wind
+  - spatially homogenous condition
+  - access to the emergent wavelength
+
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+### &#8594; Problem ? {style="margin-left:0; margin-right:0;"}
+
+- natural winds: `multidirectionnal`
+- natural sand seas: `spatial` `boundary` `conditions`
+- *linear* dune patterns: also have an `orientation`
+
+:::
+::::
+
+## Emergence and dune instability: an example
+
+#### &#8594; Problem: wind variability (strength and direction)
+
+![(a) Dunes in Angola. (b) Dunes in the Taklamacan desert, China](src/incipient_bedforms/Figure_terrain_1.svg){width=50%}
+
+## Emergence and dune instability: an example
+
+#### &#8594; Problem: wind variability (strength and direction)
+
+#### &#8594; Methods: modification of the linear stability analysis
+
+
+
+
+
+
+## Mature non-linear patterns
+
+## Mecanisms at the sand sea scale
+
+# Particle-laden gravity flows: influence of the particle buoyancy
+
+## General questions
+
+## Lock-release systems
+
+## Steady inflow systems
+
+## Links with the position -->
