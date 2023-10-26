@@ -14,412 +14,412 @@ format:
     viewDistance: 20
     template-partials:
       - title-slide.html
-extra_javascript:
-    - https://pyscript.net/latest/pyscript.js
 ---
 
 ## General background
 
-- License of Physics, major Geosciences
-- Master of Geosciences, major Geophysical Fluid Dynamics
-- Master of Physics, major Fluid Dynamics and Soft Matter
-
-:::: {.columns}
-
-::: {.column width=50%}
-<h4 style="text-align:center; margin: 30px"> PhD thesis: Sand dunes (IPGP, 2017 -- 2020) </h4>
-
-![Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China.](src/DunePanorama_small.jpg){height=450px}
-
+::: boxed-orange
+::: columns
+::: {.column width="45%"}
+-   CPGE Physics/Chemistry
+-   License of Physics, major Geosciences
 :::
 
-::: {.column width=50%}
-<h4 style="text-align:center; margin: 30px"> PostDoc: Turbidity currents (IMFT, 2021 -- now) </h4>
-
-![Powder snow avalanche at the Zinal ski station, in Switzerland. (@Zacharie Grossen)](src/avalanche_crop.jpg){height=450px}
-
+::: {.column width="55%"}
+-   Master of Geosciences, major Geophysical Fluid Dynamics
+-   Master of Physics, major Fluid Dynamics and Soft Matter
 :::
-::::
+:::
+:::
 
+::: columns
+::: {.column width="50%"}
+<h4 style="text-align:center; margin: 30px">
+
+PhD thesis: Sand dunes
+
+(IPGP, 2017 -- 2020)
+
+</h4>
+
+![Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China.](src/DunePanorama_small.jpg){height="450px"}
+:::
+
+::: {.column width="50%"}
+<h4 style="text-align:center; margin: 30px">
+
+PostDoc: Turbidity currents
+
+(IMFT, 2021 -- 2023)
+
+</h4>
+
+![Powder snow avalanche at the Zinal ski station, in Switzerland. (@Zacharie Grossen)](src/avalanche_crop.jpg){height="450px"}
+:::
+:::
+
+## General background
+
+::: columns
+::: {.column width="50%"}
+<h4 style="text-align:center; margin: 30px">
+
+PostDoc: Riverbed clogging
+
+(IMFT, 2023 -- 2024)
+
+</h4>
+
+![Underwater view of the River Tara riverbed, in Montenegro. (@LiquiArt)](src/Tara_River_Underwater.jpg){height="600px"}
+:::
+
+::: {.column width="50%"}
+<h4 style="text-align:center; margin: 30px;">
+
+PostDoc: Cohesive granular flows
+
+(Manchester, starting 2024)
+
+</h4>
+
+![Dense snow avalanche at the Grand-Bornand ski station, in France.](src/PXL_20230315_152333034-EFFECTS.jpg){height="600px"}
+:::
+:::
 
 # From a hydrodynamic instability to dune patterns shaping sand seas
 
 ::: {style="margin-top: 80px;text-align:center;"}
-
-![Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China.](src/DunePanorama_small.jpg){height=400px}
-
+![Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China.](src/DunePanorama_small.jpg){height="400px"}
 :::
 
-## General questions
+::: {style="font-size:20px;text-align:right"}
+supervised by Clément Narteau (IPGP) and Philippe Claudin (PMMH)
+:::
 
-:::: {.columns}
+## Dunes -- General questions
+
+::: columns
 ::: {.column width="50%"}
-
-- `Inference/constraints`, where measurements are not possible or available (winds, grain size)
-:::
-::: {.column width="50%"}
-
-::: {style="text-align: center;"}
-
-- `Risks,` `land management` in arid, coastal areas 
-
+-   `Inference/constraints`, where measurements are not possible or available (winds, grain size)
 :::
 
-:::
-::::
-
-:::: {.columns}
-::: {.column width="50%"}
-
-![Dune patterns on Mars. (@NASA)](src/Dune_mars.jpg){height=400px}
-
-:::
-::: {.column width="50%"}
-
-![Dune moving over a road, Egypt. (@Yann Arthus-Bertrand)](src/road-interrupted-by-a-sand-dune.jpg){height=400px}
-
-:::
-::::
-
-::: {.fragment}
-::: {.important}
-
-[&#8594; Need for a quantitative understanding of dune morphodynamics, `in` `real` `conditions`]{.boxed}
-
-:::
-:::
-
-## Focus of my PhD
-
-:::: {.columns}
 ::: {.column width="50%"}
 ::: {style="text-align: center;"}
-
-- `Multidirectional` `wind` `regimes`
-
+-   `Risks,` `land management` in arid, coastal areas
 :::
 :::
+:::
+
+::: columns
 ::: {.column width="50%"}
+![Dune patterns on Mars. (@NASA)](src/Dune_mars.jpg){height="400px"}
+:::
 
+::: {.column width="50%"}
+![Dune moving over a road, Egypt. (@Yann Arthus-Bertrand)](src/road-interrupted-by-a-sand-dune.jpg){height="400px"}
+:::
+:::
+
+::: fragment
+::: important
+[→ Need for a quantitative understanding of dune morphodynamics, `in` `real` `conditions`]{.boxed}
+:::
+:::
+
+## Dunes -- Focus of my PhD
+
+::: columns
+::: {.column width="50%"}
 ::: {style="text-align: center;"}
-
-- `Boundary` `conditions`
-
+-   `Multidirectional` `wind` `regimes`
 :::
 :::
-::::
 
-:::: {.columns}
-
-::: {.column width=25%}
-:::
-
-::: {.column width=50%}
-::: {.fragment}
-:::{.callout-note appearance="minimal" #nomargin}
-
-## Emergence and instabilities 
-
-![Theory, Experiments, Numerical simulations, Field data](src/PhD_focus/Patterns_manip.svg){width=1000px .img-white}
-
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+-   `Boundary` `conditions`
 :::
 :::
 :::
 
-::: {.column width=25%}
+::: columns
+::: {.column width="25%"}
 :::
 
-::::
-:::: {.columns}
-::: {.column width=59%}
+::: {.column width="50%"}
+::: fragment
+::: {.callout-note appearance="minimal"}
+## Emergence and instabilities
 
-::: {.fragment}
-:::{.callout-tip appearance="minimal" #nomargin}
+![Theory, Experiments, Numerical simulations, Field data](src/PhD_focus/Patterns_manip.svg){.img-white width="1000px"}
+:::
+:::
+:::
+
+::: {.column width="25%"}
+:::
+:::
+
+::: columns
+::: {.column width="59%"}
+::: fragment
+::: {.callout-tip appearance="minimal"}
 ## Mature and non-linear patterns
 
-![Numerical simulations, Field data](src/PhD_focus/figure_numerical.svg){width=900px .img-white}
-
+![Numerical simulations, Field data](src/PhD_focus/figure_numerical.svg){.img-white width="900px"}
 :::
 :::
 :::
 
-::: {.column width=41%}
-::: {.fragment}
-
-:::{.callout-warning .callout-center appearance="minimal" #nomargin}
+::: {.column width="41%"}
+::: fragment
+::: {.callout-warning .callout-center appearance="minimal"}
 ## Large scale mecanisms
 
-![Theory, Field data](src/PhD_focus/Figure9.svg){width=1000px .img-white}
-
+![Theory, Field data](src/PhD_focus/Figure9.svg){.img-white width="1000px"}
 :::
 :::
 :::
-
-::::
+:::
 
 # Turbidity currents: lock-release and steady influx systems
 
 ::: {style="margin-top: 80px;text-align:center;"}
-
-![Powder snow avalanche at the Zinal ski station, in Switzerland. (@Zacharie Grossen)](src/avalanche_crop.jpg){height=400px}
-
+![Powder snow avalanche at the Zinal ski station, in Switzerland. (@Zacharie Grossen)](src/avalanche_crop.jpg){height="400px"}
 :::
 
-## General questions
+::: {style="font-size:20px;text-align:right"}
+in collaboration with Matthieu Mercier (IMFT) and Laurent Lacaze (IMFT)
+:::
 
-:::: {.columns}
+## Turbidity currents -- General questions
+
+::: columns
 ::: {.column width="50%"}
 ::: {style="text-align: center;"}
-
-- `Natural` `hazards`, risks
-
+-   `Natural` `hazards`, risks
 :::
 :::
+
 ::: {.column width="50%"}
 ::: {style="text-align: center;"}
-
-- `Geological` `constraints`, inference from deposits
-
+-   `Geological` `constraints`, inference from deposits
 :::
 :::
-::::
+:::
 
-:::: {.columns}
+::: columns
 ::: {.column width="50%"}
 <!-- ::: {style="text-align: center;"} -->
 
-![Pyroclastic flow, Sinabung, Indonesia (@Jean-Guillaume Feignon)](src/pyroclastic.png){height=400px}
+![Pyroclastic flow, Sinabung, Indonesia (@Jean-Guillaume Feignon)](src/pyroclastic.png){height="400px"}
 
 <!-- ::: -->
 :::
+
 ::: {.column width="50%"}
 <!-- ::: {style="text-align: center;"} -->
 
-![Turbidity current deposit (Wilkin et al. 2023)](src/Deposit_wilkin.svg){height=400px}
+![Turbidity current deposit (Wilkin et al. 2023)](src/Deposit_wilkin.svg){height="400px"}
 
 <!-- ::: -->
 :::
-::::
+:::
 
-:::: {style="max-width: 60%; margin: 0 auto;"}
+::: {style="max-width: 60%; margin: 0 auto;"}
 <!-- ::: {style="text-align: center;"} -->
 
-
-- Fundamental questions:
-  - `particle/something` (turbulence, wall) `interactions`
-  - `entrainment` in particle-laden flows
+-   Fundamental questions:
+    -   `particle/something` (turbulence, wall) `interactions`
+    -   `entrainment` in particle-laden flows
 
 <!-- ::: -->
-::::
+:::
 
-## Focus of my PostDoc
+## Turbidity currents -- Focus of my work
 
-:::: {.columns}
+::: columns
 ::: {.column width="50%"}
 ::: {style="text-align: center;"}
-
-- Influence of `particle` `buoyancy`
-
+-   Influence of `particle` `buoyancy`
 :::
 :::
+
 ::: {.column width="50%"}
-
 ::: {style="text-align: center;"}
-
-- Influence of `bottom` `slope`
-
+-   Influence of `bottom` `slope`
 :::
 :::
-::::
+:::
 
 <hr>
 
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="40%"}
-::: {.fragment}
-:::{.callout-tip appearance="minimal" #nomargin}
+::: fragment
+::: {.callout-tip appearance="minimal"}
 ## Lock-release turbidity current
 
-![Experiments](src/PostDoc_focus/lock_release.svg){height=600px}
-
+![Experiments](src/PostDoc_focus/lock_release.svg){height="600px"}
 :::
 :::
 :::
 
 ::: {.column width="60%"}
-::: {.fragment}
-:::{.callout-note appearance="minimal" #nomargin}
+::: fragment
+::: {.callout-note appearance="minimal"}
 ## Steady influx turbidity current
 
-![Experiments](src/PostDoc_focus/steady_injection.svg){height=200px}
-
+![Experiments](src/PostDoc_focus/steady_injection.svg){height="200px"}
 :::
 :::
-::: {.fragment}
 
-:::{.callout-warning appearance="minimal" #nomargin}
-
+::: fragment
+::: {.callout-warning appearance="minimal"}
 ## Depth-averaged models
 
-
-![Theory](src/PostDoc_focus/SW_figure.svg){height=225px}
-
+![Theory](src/PostDoc_focus/SW_figure.svg){height="225px"}
 :::
 :::
 :::
-
-::::
-
-## Links with this postdoctoral position
-
-::: {.fragment fragment-index=1}
-:::{.callout-note .callout-center #nomargin}
-## Scientific interests
-
-:::: {.columns}
-
-::: {.column width="36%"}
-
-- Fluid and granular physics:
-  - Sediment transport, bedforms [&#8594; debris-flows and deposits]{.highlight}
-  - Suspensions, particle-laden gravity currents [&#8594; debris-flows]{.highlight}
-  - Instabilities, patterns [&#8594; surge waves, deposits]{.highlight}
-
-:::
-::: {.column width="35%"}
-
-- Quantitative geophysics:
-  - Linking observations to physical mecanisms [&#8594; assessing relevant mechanisms for specific observations (e.g. surge waves)]{.highlight}
-
-:::
-::: {.column width="29%"}
-
-- Open science [&#8594; code and data dissemination]{.highlight}
-
-:::
-::::
-
-:::
 :::
 
-:::: {.columns}
+# Particle flow in porous media: the example of riverbed clogging
+
+::: {style="margin-top: 80px;text-align:center;"}
+![Underwater view of the River Tara riverbed, in Montenegro. (@LiquiArt)](src/Tara_River_Underwater.jpg){height="600px"}
+:::
+
+::: {style="font-size:20px;text-align:right"}
+in collaboration with Matthieu Mercier (IMFT) and Laurent Lacaze (IMFT)
+:::
+
+
+## Riverbed clogging -- General questions
+
+::: columns
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+-   `Risks`, `Land` `managment`: flood, impacts of dam presence
+:::
+:::
 
 ::: {.column width="50%"}
-
-::: {.fragment fragment-index=2}
-:::{.callout-tip .callout-center #nomargin}
-## Practical skills
-
-- Analytical skills:
-  - linear stability analysis [&#8594; surge waves]{.highlight}
-  - depth-averaged models [&#8594; depth-averaged models]{.highlight}
-
-- Programming skills:
-  - data processing (Python) [&#8594; processing all kind of data]{.highlight}
-  - numerical simulations (Python, C++) [&#8594; solving equations]{.highlight}
-  - HTML, code documentation, Fortran
-
-- Experimental skills:
-  - design and execution of experiments [&#8594; analogue experiments for debris-flows]{.highlight}
-  - fluid/particles
-
-- Multitechnique approach:
-  - coupling theory, experiments, numerical simulations and field data into new ideas &nbsp; [&#8594; couping Illgraben data to lab and theoretical results]{.highlight}
-
+::: {style="text-align: center;"}
+-   `Ecosystem` `preservation`: life, transfer across the riverbed (pollution, nutrients)
 :::
 :::
 :::
 
+::: columns
+::: {.column width="50%"}
+<!-- ::: {style="text-align: center;"} -->
 
+![Photograph of the Sanmenxia Dam during silt flushing. (@RolfMueller)](src/OFB_focus/Sanmenxia_dam_silt_flushing.jpg){height="400px"}
+
+<!-- ::: -->
+:::
 
 ::: {.column width="50%"}
+<!-- ::: {style="text-align: center;"} -->
 
-::: {.fragment fragment-index=3}
-:::{.callout-warning .callout-center #nomargin}
-## General skills
+![Salmon eggs buried in riverbed gravels. (@Olympic National Park)](src/OFB_focus/Salmon_eggs_river_gravel_NPS_Photo_(2)_(22927373645).jpg){height="400px"}
 
-- Team work:
-  - worked in 5 different labs [&#8594; integration in the team]{.highlight}
-  - many team projects (different labs, different communities) [&#8594; work efficiently within an interdisciplinary international project team]{.highlight}
+<!-- ::: -->
+:::
+:::
 
-- Writing and presenting:
-  - 11 publications in international journals
-  - 11 oral communications
-  - (LaTEX)
+::: {style="max-width: 60%; margin: 0 auto;"}
+<!-- ::: {style="text-align: center;"} -->
 
-- Student supervision:
-  - 4 students supervised
+-   Fundamental questions:
+    -   clogging and unclogging (if possible ?) `thresholds`
+    -   `spatio-temporal` dynamics
+    -   particle dynanimcs inside the porous media
 
-- Teaching
+<!-- ::: -->
+:::
 
+## Riverbed clogging -- Focus of my work
+
+::: columns
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+-   `Spatio-temporal` dynamics of the percolation
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+-   Clogging and unclogging (if possible ?) `thresholds`
 :::
 :::
 :::
 
+<hr>
 
-::::
+::: columns
+::: {.column width="40%"}
+::: fragment
+::: {.callout-tip appearance="minimal"}
+## Development of flume experiments
 
-<!-- 
-
-## Emergence and dune instability
-
-:::: {.columns}
-
-::: {.column width="48%"}
-
-### &#8594; What was known ? 
-
-- `instability` coupling flow, sediment transport and topography evolution
-- `linear stability analysis`
-  - unidirectional constant wind
-  - spatially homogenous condition
-  - access to the emergent wavelength
-
+![Experiments](src/OFB_focus/manip_snapshots.svg){height="600px"}
+:::
+:::
 :::
 
-::: {.column width="4%"}
+::: {.column width="60%"}
+::: fragment
+::: {.callout-note appearance="minimal"}
+## Associated Metrology
+::: {layout="[1,1.47]" layout-valign="bottom"}
+![Ultrasound velocity measurements](src/OFB_focus/UDV_mes.svg)
+
+![Quantitative measurements within the hydrogel bead matrix](src/OFB_focus/PXL_20230725_110311627.jpg)
 :::
 
-::: {.column width="48%"}
-
-### &#8594; Problem ? {style="margin-left:0; margin-right:0;"}
-
-- natural winds: `multidirectionnal`
-- natural sand seas: `spatial` `boundary` `conditions`
-- *linear* dune patterns: also have an `orientation`
-
 :::
-::::
+:::
 
-## Emergence and dune instability: an example
+::: fragment
+::: {.callout-warning appearance="minimal"}
+## Work in progress ...
+:::
+:::
+:::
+:::
 
-#### &#8594; Problem: wind variability (strength and direction)
+## Self-organization in cohesive granular flows
+::: {style="font-size:20px;text-align:center;margin-top:0px"}
+in collaboration with Nico Gray (Manchester) and Chris Johnson (Manchester)
+:::
 
-![(a) Dunes in Angola. (b) Dunes in the Taklamacan desert, China](src/incipient_bedforms/Figure_terrain_1.svg){width=50%}
+- Prediction (risk, natural hazards, efficiency in industrial contexts)
+  
+→ Need for fast models, validated on experiments
 
-## Emergence and dune instability: an example
-
-#### &#8594; Problem: wind variability (strength and direction)
-
-#### &#8594; Methods: modification of the linear stability analysis
-
-
-
+::: {.callout-warning appearance="minimal"}
+## Example: Self-channelization of a cohesive granular avalanche
+![](src/figure_self_channel.svg){width="1900px" style="background:white"}
+:::
 
 
+## Miscalleneous
 
-## Mature non-linear patterns
+::: {style="max-width: 60%; margin: 0 auto;"}
 
-## Mecanisms at the sand sea scale
+::: {.callout-note appearance="minimal"}
+## Other current research projects:
 
-# Particle-laden gravity flows: influence of the particle buoyancy
+  - Impacts in viscoplastic fluids (J. Neufeld and S. Dalziel, DAMTP, Cambridge)
+  - Reaction-diffusion patterns in LCTEM experiments (IPGP, Paris -- LMSC, Paris) 
+:::
 
-## General questions
+::: {.callout-warning appearance="minimal"}
+## Other interests:
 
-## Lock-release systems
-
-## Steady inflow systems
-
-## Links with the position -->
+  - Open science, FAIR principles
+  - helping in developping/maintaining some Python libs (matplotlib, lmfit)
+:::
+:::

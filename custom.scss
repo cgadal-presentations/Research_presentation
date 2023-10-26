@@ -40,8 +40,12 @@
     font-size: smaller;
 }
 
-.reveal .slides .boxed {
+.reveal .slides .boxed-red {
     border: 2px solid red;
+}
+
+.reveal .slides .boxed-orange {
+    border: 2px solid lightsalmon;
     padding: 20px;
 }
 
@@ -74,10 +78,6 @@
     justify-content: center;
     align-items: center;
     height: 90%;
-}
-
-#nomargin {
-    margin-top: 0;
 }
 
 .highlight {
